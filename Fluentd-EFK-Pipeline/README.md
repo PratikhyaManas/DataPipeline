@@ -1,4 +1,4 @@
-#Installation of fluentd in RaspberryPi
+# Installation of fluentd in RaspberryPi
 
 1. Update by running the command `sudo apt-get update`
 
@@ -12,15 +12,15 @@
 
 Check whether fluentd installed properly, just type the command `fluent` and press tab. We can see that in the screen there are bunch of fluent commands.
 
-#Installation of Elasticsearch and Kibana
+# Installation of Elasticsearch and Kibana
 
 1. Run the `docker-compose -f elasticsearch-docker-compose.yml up -d`. Elasticsearch running on port 9200, Kibana running on port 5601.
 
-#Logs Producer
+# Logs Producer
 
 1. Run the `producer.py` script in RaspberryPi. The logs are generated in `log.json` file. 
 
-#Fluentd Configuration File and running the fluentd
+# Fluentd Configuration File and running the fluentd
 
 1. Create a fluentd configuration file by the command `touch fluentd.conf`.
 
