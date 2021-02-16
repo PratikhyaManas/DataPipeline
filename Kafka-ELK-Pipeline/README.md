@@ -1,3 +1,6 @@
+
+![Kafka-ELK](https://user-images.githubusercontent.com/35187384/108124376-674ed100-70a7-11eb-8034-ba94ac965272.jpg)
+
 There are 5 components in the creation of this pipeline.
 
 1. Kafka Server - The server publishes the data gathered from the producer.
