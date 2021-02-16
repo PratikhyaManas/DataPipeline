@@ -1,3 +1,6 @@
+
+![EFK](https://user-images.githubusercontent.com/35187384/108125842-5b640e80-70a9-11eb-9025-79be1925f70f.jpg)
+
 # Installation of fluentd in RaspberryPi
 
 1. Update by running the command `sudo apt-get update`

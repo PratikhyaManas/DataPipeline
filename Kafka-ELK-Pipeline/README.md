@@ -1,12 +1,14 @@
+![Kafka-ELK-Pipeline](https://user-images.githubusercontent.com/35187384/108125150-5b174380-70a8-11eb-931b-efd08f3f723d.jpg)
+
 There are 5 components in the creation of this pipeline.
 
-1. Kafka Server - The server publishes the data gathered from the producer.
+1. Producer(Raspberry Pi) - It publishes the data to the Kafka Topic.
 
-2. Producer - It publishes the data to the Kafka Topic.
+2. Kafka Server - The server publishes the data gathered from the producer.
 
-3. Elasticsearch - It is the database which stores the data published.
+3. Logstash - It acts as a medium between the Kafka and Elasticsearch which will carry the published data from Kafka and insert into the Elasticsearch database.
 
-4. Logstash - It acts as a medium between the Kafka and Elasticsearch which will carry the published data from Kafka and insert into the Elasticsearch database.
+4. Elasticsearch - It is the database which stores the data published.
 
 5. Kibana - It is a visualization tool to read the data in graphical format.
 
