@@ -1,5 +1,4 @@
-
-![Kafka-ELK](https://user-images.githubusercontent.com/35187384/108124376-674ed100-70a7-11eb-8034-ba94ac965272.jpg)
+![Kafka-ELK-Pipeline](https://user-images.githubusercontent.com/35187384/108125150-5b174380-70a8-11eb-931b-efd08f3f723d.jpg)
 
 There are 5 components in the creation of this pipeline.
 
