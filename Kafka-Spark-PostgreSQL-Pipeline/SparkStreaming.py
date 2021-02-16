@@ -35,7 +35,7 @@ class AggInsertPostgres:
         try:
             connection = psycopg2.connect(user="postgres",
             password="postgres",
-            host="192.168.99.100",
+            host="192.167.00.106",
             port="5432",
             database="Spark Database")
             cursor = connection.cursor()
