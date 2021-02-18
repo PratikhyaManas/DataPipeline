@@ -1,3 +1,5 @@
+![twitter_stream](https://user-images.githubusercontent.com/35187384/108358427-ffa39d80-71ee-11eb-97bf-3b72d0f689d1.jpg)
+
 There are 4 components in the creation of this pipeline.
 
 1. Twitter API - This will publish the tweet data to the Kafka Cluster.
